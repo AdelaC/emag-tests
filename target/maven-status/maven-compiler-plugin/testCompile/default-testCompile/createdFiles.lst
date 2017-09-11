@@ -1,0 +1,5 @@
+com\features\LoginTest.class
+com\pages\HomePage.class
+com\pages\LoginPage.class
+com\steps\serenity\LoginSteps.class
+com\utils\Constants.class

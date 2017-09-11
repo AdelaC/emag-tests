@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.features.LoginTest" skipped="0" tests="1" time="27.66" timestamp="2017-09-05T22:59:32.237+03:00[Europe/Athens]"><testcase classname="com.features.LoginTest" name="Login without password"><failure message="Expected condition failed: waiting for HomePage.detailsForm to be present (tried for 5 second(s) with 100 MILLISECONDS interval)&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'CALIN-PC', ip: '192.168.0.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for HomePage.detailsForm to be present (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'CALIN-PC', ip: '192.168.0.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for HomePage.detailsForm to be present (tried for 5 second(s) with 100 MILLISECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'CALIN-PC', ip: '192.168.0.11', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: driver.version: unknown&#13;
+com.pages.HomePage.checkUserName(HomePage.java:20)&#13;
+com.steps.serenity.LoginSteps.checkNotLoggedIn(LoginSteps.java:44)&#13;
+com.features.LoginTest.loginWithoutPassword(LoginTest.java:36)&#13;
+</system-err></testcase></testsuite>
