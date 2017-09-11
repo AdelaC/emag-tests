@@ -26,7 +26,6 @@ public class SearchTest {
     @Steps
     SearchResultsSteps searchResultsSteps;
 
-
     @Test
     public void searchTest() {
         loginSteps.navigateToLogin();
@@ -36,7 +35,7 @@ public class SearchTest {
         loginSteps.clickOnContinue();
         homeSteps.setSearchField(Constants.TEXT_SEARCH_FIELD);
         searchResultsSteps.selectMobilePhones();
-        searchResultsSteps.selectS7Black32GB();
+        searchResultsSteps.checkListOfResultsNotEmpty();
     }
 
 
